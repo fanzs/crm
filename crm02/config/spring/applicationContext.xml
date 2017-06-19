@@ -11,5 +11,10 @@
         	http://www.springframework.org/schema/aop
         	http://www.springframework.org/schema/aop/spring-aop.xsd"> <!-- bean definitions here -->
 	<!-- 公共配置项 -->
+	<!-- 1.1 -->
+	<context:property-placeholder location="classpath:jdbcInfo.properties"></context:property-placeholder>
+	<!-- 1.2 -->
 	
+	<!-- 导入其他配置文件 -->
+	<import resource="applicationContext-staff.xml"/>
 </beans>

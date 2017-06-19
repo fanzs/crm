@@ -13,6 +13,5 @@
 	<!-- 员工配置项 -->
 	
 	
-	<!-- 导入其他配置文件 -->
-	<import resource="applicationContext-staff.xml"/>
+	
 </beans>
